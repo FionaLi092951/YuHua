@@ -47,6 +47,7 @@ p {
 	margin-bottom: 40px;
 	margin-right: 50px;
 	font-size: 2.2vh;
+	font-family: replica_light;
 }
 
 .slider2-ver .para-0{
@@ -72,6 +73,7 @@ p {
 .slider2-hor .text{
 	text-align: left;
 	font-size: 2.2vh;
+	font-family: replica_light;
 }
 
 .slider2-hor .para-0{

@@ -36,6 +36,8 @@ p {
 
 .slider2-ver{
 	opacity: 0;
+	overflow: auto;
+	height: 100%;
 }
 
 .slider2-hor{
@@ -50,24 +52,16 @@ p {
 	font-family: replica_light;
 }
 
-.slider2-ver .para-0{
-	position: fixed; /* or absolute */
-	top: 50px;
-	left: 50px;
-	margin-right: 50px;
+.slider2-ver .para-2{
 	text-align: left;
 }
 
-.slider2-ver .para-1{
-	position: fixed; /* or absolute */
-	top: 50px;
-	left: 50px;
-}
-
-.slider2-ver .para-2{
-	position: fixed; /* or absolute */
-	bottom: 50px;
-	left: 50px;
+.slider2-ver-inner{
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: auto;
 }
 
 .slider2-hor .text{
@@ -295,23 +289,23 @@ p {
 
 
 .slider1{
-	/* animation: fade1 20s infinite; */
-	display: none;
+	animation: fade1 20s infinite;
+	/* display: none; */
 }
 
 .slider2{
-	/* animation: fade2 20s infinite; */
+	animation: fade2 20s infinite;
 	/* display: none; */
 }
 
 .slider3{
 	animation: fade3 20s infinite;
-	display: none;
+	/* display: none; */
 }
 
 .slider4{
 	animation: fade4 20s infinite;
-	display: none;
+	/* display: none; */
 }
 
 @keyframes fade1{

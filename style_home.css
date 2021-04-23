@@ -46,6 +46,7 @@ p {
 	text-align: left;
 	margin-bottom: 40px;
 	margin-right: 50px;
+	font-size: 2.2vh;
 }
 
 .slider2-ver .para-0{
@@ -58,7 +59,7 @@ p {
 
 .slider2-ver .para-1{
 	position: fixed; /* or absolute */
-	bottom: 120px;
+	top: 50px;
 	left: 50px;
 }
 
@@ -70,6 +71,7 @@ p {
 
 .slider2-hor .text{
 	text-align: left;
+	font-size: 2.2vh;
 }
 
 .slider2-hor .para-0{
@@ -291,23 +293,23 @@ p {
 
 
 .slider1{
-	animation: fade1 20s infinite;
-	/* display: none; */
+	/* animation: fade1 20s infinite; */
+	display: none;
 }
 
 .slider2{
-	animation: fade2 20s infinite;
+	/* animation: fade2 20s infinite; */
 	/* display: none; */
 }
 
 .slider3{
 	animation: fade3 20s infinite;
-	/* display: none; */
+	display: none;
 }
 
 .slider4{
 	animation: fade4 20s infinite;
-	/* display: none; */
+	display: none;
 }
 
 @keyframes fade1{

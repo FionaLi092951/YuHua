@@ -48,7 +48,7 @@ p {
 	text-align: left;
 	margin-bottom: 1.5vh;
 	margin-right: 50px;
-	font-size: 1.8vh;
+	font-size: 2.2vh;
 	font-family: replica_light;
 }
 
@@ -57,6 +57,7 @@ p {
 }
 
 .slider2-ver-inner{
+	height: 100%;
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
@@ -290,22 +291,22 @@ p {
 
 .slider1{
 	animation: fade1 20s infinite;
-	/* display: none; */
+	display: none;
 }
 
 .slider2{
-	animation: fade2 20s infinite;
+	/* animation: fade2 20s infinite; */
 	/* display: none; */
 }
 
 .slider3{
 	animation: fade3 20s infinite;
-	/* display: none; */
+	display: none;
 }
 
 .slider4{
 	animation: fade4 20s infinite;
-	/* display: none; */
+	display: none;
 }
 
 @keyframes fade1{

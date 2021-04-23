@@ -1,0 +1,202 @@
+
+html{
+	scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+}
+
+body {
+	background-color:black;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+h1 {
+	font-family: replica_regular;
+	font-size: 2.2vh;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 1.2vh;
+	line-height: 110%;
+}
+
+
+p {
+	font-family: replica_light;
+	font-size: 1.8vh;
+	padding: 0;
+	margin: 0;
+	line-height: 110%;
+}
+
+ul {
+  	list-style: none; 
+  	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+	/* margin-right:9vw; */
+	font-family: replica_light;
+	font-weight: bold;
+	font-size: 2vh;
+}
+
+li:last-child {
+	margin-right:3vw;
+}
+
+.bold_type{
+	font-family:replica_regular;
+}
+
+.lighter_type{
+	font-family:replica_light;
+}
+
+.chinese_type{
+	font-family:type_chinese;
+	font-size: 1.8vh;
+}
+
+.container{
+	font-size: 0;
+}
+
+.container::-webkit-scrollbar{
+	display: none;
+}
+
+.horizontal_slider{
+	display: block; 
+	width: 100%;
+	overflow-x: scroll;
+	box-sizing:border-box;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.horizontal_slider::-webkit-scrollbar{
+	display: none;
+}
+
+.post{
+	scroll-snap-align: start;
+}
+
+.slider_container2{
+	display: block;
+	white-space: nowrap;
+}
+
+.item{
+	display: inline-block;
+	height: 100vh;
+}
+
+.item img{
+	height:100%;
+}
+
+.video-wrap_1 { 
+	z-index: -1;
+ 	display: inline-block;
+ 	width: 150vh;
+ 	margin: 0;
+ 	padding: 0;
+} 
+
+.video-wrap_2 { 
+	z-index: -1;
+ 	display: inline-block;
+ 	width: 177.78vh;
+ 	margin: 0;
+ 	padding: 0;
+} 
+
+iframe {
+  	position: absolute; 
+  	top: 0; 
+  	left: 0; 
+  	width: 100%; 
+  	height: 100%; 
+}
+
+#date {
+	position: fixed;
+	top: 6%;
+	transform: translate(0, -50%);
+	left:1%;
+	height: auto;
+	width: 28%;
+	background: transparent;
+	color: red;
+	z-index: 1000;
+}
+
+#date_top {
+	position: fixed;
+	top: 1%;
+	left:1%;
+	height: auto;
+	width: 26vw;
+	background:transparent;
+	color: red;
+	z-index: 1000;
+}
+
+#date_bottom {
+	position: fixed;
+	bottom: 1%;
+	left:1%;
+	height: auto;
+	/* width: 50vw; */
+	background:transparent;
+	color: red;
+	z-index: 1000;
+}
+
+#credit_detail {
+	opacity: 1;
+}
+.credit_detail_btn {
+	cursor: pointer;
+	display: none;
+}
+
+#credit{
+	display: none;
+	cursor: pointer;
+}
+
+.credit_detail_show {color:red;}
+
+@font-face{
+	font-family: replica_light;
+   	src: url("fonts/replica_light.otf");
+}
+
+@font-face{
+	font-family: replica_regular;
+   	src: url("fonts/replica_regular.otf");
+}
+
+@font-face{
+	font-family: type_chinese;
+   	src: url("fonts/notosanssc-regular.otf");
+}
+
+@media screen and (max-width: 768px){
+#date_top {width:80vw;}
+#date_bottom {width: 100vw;}
+#credit{display: block;}
+}
+
+@media screen and (max-height: 500px){
+h1{font-size: 14px;}
+p{font-size: 12px;}
+li{font-size: 12px;}
+}

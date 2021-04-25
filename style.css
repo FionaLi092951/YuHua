@@ -67,6 +67,7 @@ li:last-child {
 
 .container{
 	font-size: 0;
+	scroll-snap-type: y mandatory;
 }
 
 .container::-webkit-scrollbar{

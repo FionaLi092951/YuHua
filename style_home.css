@@ -60,6 +60,7 @@ p {
 
 .slider2-ver-inner{
 	/* height: calc(100vh - 300px); */
+	height: 100%;
 	margin: 50px;
 	display: flex;
 	flex-direction: column;

@@ -3,7 +3,10 @@ html{
 	/* scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory; */
-    overflow-x: hidden;
+	overflow-x: hidden;
+	max-height: 100vh;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 body {
@@ -64,9 +67,6 @@ li:last-child {
 
 .container{
 	font-size: 0;
-	max-height: 100vh;
-    overflow: scroll;
-    scroll-snap-type: y mandatory;
 }
 
 .container::-webkit-scrollbar{

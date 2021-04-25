@@ -57,7 +57,7 @@ p {
 }
 
 .slider2-ver-inner{
-	height: calc(100% - 100px);
+	height: calc(100% - 200px);
 	margin: 50px;
 	display: flex;
 	flex-direction: column;

@@ -61,8 +61,8 @@ p {
 .slider2-ver-inner{
 	height: calc(100vh - 200px);
 	/* height: 100%; */
-	margin: 50px;
-	margin-bottom: 150px;
+	padding: 50px;
+	padding-bottom: 150px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

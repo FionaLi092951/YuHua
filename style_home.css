@@ -3,7 +3,8 @@ html{
 	scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
-    overflow-x: hidden;
+	overflow-x: hidden;
+	height: 100%;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 	margin-left: 0;
 	margin-right: 0;
 	margin-top:0;
+	height: 100%;
 }
 
 p {
@@ -57,7 +59,7 @@ p {
 }
 
 .slider2-ver-inner{
-	height: calc(100vh - 300px);
+	/* height: calc(100vh - 300px); */
 	margin: 50px;
 	display: flex;
 	flex-direction: column;

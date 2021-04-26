@@ -295,22 +295,22 @@ p {
 
 .slider1{
 	animation: fade1 20s infinite;
-	display: none;
+	/* display: none; */
 }
 
 .slider2{
-	/* animation: fade2 20s infinite; */
+	animation: fade2 20s infinite;
 	/* display: none; */
 }
 
 .slider3{
 	animation: fade3 20s infinite;
-	display: none;
+	/* display: none; */
 }
 
 .slider4{
 	animation: fade4 20s infinite;
-	display: none;
+	/* display: none; */
 }
 
 @keyframes fade1{
